@@ -4,17 +4,6 @@ var App = React.createClass({
       text: ""
     };
   },
-  overflowAlert: function() {
-if (this.remainingCharacters() < 0) {
-  var beforeOverflowText = this.state.text.substring(35 - 10, 35);
-  var overflowText = this.state.text.substring(35);
-  }
-},
-
-  remainingCharacters: function() 
-  {
-      return 35 - this.state.text.length;
-  },
   handleChange: function(event) 
   {
      this.setState({ text: event.target.value });
@@ -24,17 +13,17 @@ if (this.remainingCharacters() < 0) {
   {
     let userMessage;
     const divStyle = {
-      fontSize: 80,
+      fontSize: 50,
       };
     if (this.state.text.length > 35) {
       userMessage =( 
-          <textarea style={divStyle} className="form-control" onChange={this.handleChange}></textarea>
+          <textarea className="form-control" onChange={this.handleChange}></textarea>
       ) 
     }
     else
     {
       userMessage = (
-        <textarea className="form-control" onChange={this.handleChange}></textarea> 
+        <textarea style={divStyle} className="form-control" onChange={this.handleChange}></textarea> 
       )
     }
     return (
