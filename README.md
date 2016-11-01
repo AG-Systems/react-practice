@@ -11,3 +11,5 @@ Projects ideas:
 Practice getting input with react 
 
 Get good at compenents
+
+YouTube playlist 
