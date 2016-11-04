@@ -8,8 +8,6 @@ Also learn how to combine angularjs with react
 
 Projects ideas: 
 
-Practice getting input with react 
-
-Get good at compenents
-
 YouTube playlist 
+
+My mathlab style app
