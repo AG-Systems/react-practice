@@ -9,6 +9,6 @@ Also learn how to combine angularjs with react
 
 Projects ideas: 
 
-YouTube playlist 
+YouTube playlist [X]
 
-My mathlab style app
+My mathlab style app []
