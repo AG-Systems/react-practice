@@ -9,6 +9,9 @@ Also learn how to combine angularjs with react
 
 Projects ideas: 
 
-YouTube playlist [X]
+YouTube playlist [x]
 
-My mathlab style app []
+My mathlab style app [ ]
+
+Quadratic formula calculator [ ] 
+
